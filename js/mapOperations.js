@@ -5,6 +5,7 @@ function getPolygon(inputLayer) {
     for(var key in overlays) {
         if(layer == overlays[key].name) {
             return overlays[key];
+       hva skjer nå
         }
     }
 }
